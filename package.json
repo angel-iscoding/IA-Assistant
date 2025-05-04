@@ -1,0 +1,36 @@
+{
+  "name": "sales-assistant-ia",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angel-iscoding/Sales-Assistant-IA.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angel-iscoding/Sales-Assistant-IA/issues"
+  },
+  "homepage": "https://github.com/angel-iscoding/Sales-Assistant-IA#readme",
+  "description": "",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.9.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2",
+    "node-fetch-commonjs": "^3.3.2",
+    "pg": "^8.15.6",
+    "postgres": "^3.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
